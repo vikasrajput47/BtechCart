@@ -1,0 +1,141 @@
+ *{
+    margin: 0;
+   
+}
+.navBar{
+   
+    height: 4rem;
+    background-color: #2874f0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    height: inherit;
+  
+    width: 7rem;
+    margin-right: 3rem;
+}
+.logo img{
+    filter: invert(1);
+    height: inherit;
+}
+.leftNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+   
+}
+.searchNav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 3rem;
+    align-items: center;
+    border: 2px solid white;
+    width: 36rem;
+    border-radius: 2rem;
+}
+.searchNav input{
+    border-radius: 2rem;
+   outline: none;
+    border: none;
+    height: inherit;
+    width: inherit;
+    font-size: 1rem;
+}
+
+.searchNav a{
+    height: 1.7rem;
+    background-color: white;
+    border: none;
+    border-radius: 4rem;
+    
+}
+.searchNav a:hover{
+cursor: pointer;
+
+}
+.searchNav a img{
+    height: inherit;
+}
+.rightNav{
+    
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    display: flex;
+}
+.logo a{
+    height: inherit;
+    width: inherit;
+}
+.navItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+}
+.productNav{
+    height: 5rem;
+    display: flex;
+    filter: invert(1);
+}
+.productNav a{
+    height: inherit;
+}
+.product  button{
+    background-color: #2874f0;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    margin-top: 4.3rem;
+}
+.navItems li{
+    list-style: none;
+    height: inherit;
+    padding: 1rem;
+    width: 14rem;
+}
+
+.proItem{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 1rem;
+position: fixed;
+    flex-direction: column;
+    background-color: #2874f0;
+
+}
+.proItem :hover{
+    transition: 1s;
+   
+    background-color:orange;
+}
+.proItem a{
+    text-decoration: none;
+ color: white;
+ cursor: pointer;
+}
+
+.hid{
+    display: none;
+} 
+
+@media screen  and (max-width:1157px) {
+   .rightNav{
+    display: none;
+   }
+
+  .logo{
+    width: 3rem; 
+}
+.searchNav{
+    height: 2rem;
+    width: unset;
+   
+}
+}

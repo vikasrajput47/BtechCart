@@ -1,0 +1,98 @@
+.itemBox{
+margin: 1rem;
+    display: flex;
+   border-radius: 0.3rem;
+    height: 18rem;
+    width: 18rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow:  0px 0px 2px 0px black;
+    color: black;
+}
+.itemBox:hover{
+    box-shadow: 1px 4px 10px 4px #7977
+
+}
+.mainItemBox{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+    justify-content: space-evenly;
+    align-items: center;
+      font-weight: bold;
+  
+
+}
+.shopBox{
+    height: 100%;
+      
+       
+    }
+    
+.mainItemBox a{
+    text-decoration: none;
+}
+.mainItemBox a:hover{
+    transition: 1s;
+   
+}
+.itemImage{
+    height: 8rem;
+}
+.itemImage img{
+    height: inherit;
+}
+.info{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.priceInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    width: 10rem;
+}
+@media screen and (max-width:563px) {
+    .shopBox{
+          
+        margin-top: 1rem;
+   
+        margin-right: 1rem;
+        margin-left: 1rem;
+
+    }
+    .itemBox{
+        margin: 1rem;
+            display: flex;
+            
+            height: 18rem;
+            width: 18rem;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+       
+        .mainItemBox{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            justify-content: center;
+          
+        
+        }
+        .itemImage{
+            height: 8rem;
+        }
+        .itemImage img{
+            height: inherit;
+        }
+        
+}
